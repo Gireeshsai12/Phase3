@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnBrowse"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Browse Courses"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btnTranscript"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="View Transcript"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btnDiscussion"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Discussion Board" />
+    <Button
+        android:id="@+id/btnEval"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Course Evaluation"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>
